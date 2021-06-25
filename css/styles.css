@@ -1,0 +1,79 @@
+body{
+    background: rgb(214, 214,214);
+}
+
+.main{
+    width: 80%;
+    height: 500px;
+    margin: 160px 0 0 200px;
+}
+
+.key{ 
+  color: black;
+  background: rgb(214, 214,214);
+  width: 75px;
+  height: 55px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-family: 'Roboto' , sans-serif;
+  text-align: center;
+  margin: 6px;
+  margin-top: 10px;
+  box-shadow: 7px 7px 10px #474343;
+  
+}
+
+.first, .second, .third, .fourth, .fifth{
+  display: flex;
+  margin: 10px 0 0 0;
+}
+
+.tab{
+  padding: 0 35px 0 0; 
+  
+}
+.backspace{
+    padding-right: 75px;
+    padding-left: 20px;
+}
+ .backslash{
+     padding-right: 60px;
+ }
+
+ .capslock{
+     padding-right: 80px;
+ }
+
+ .return{
+     padding-right: 94px;
+ }
+ 
+ .leftshift{
+     padding-right: 130px;
+ }
+ .rightshift{
+     padding-right: 125px;
+ }
+
+.ctrl{
+    width: 95px;
+}
+.win{
+    width: 90px;
+}
+.alt{
+    
+    width: 95px;
+}
+.space{
+    width: 550px;
+}
+.fn{
+    width: 90px;
+}
+
+.key:hover {
+    border: 1px solid black;
+    cursor: pointer;
+    
+  }
